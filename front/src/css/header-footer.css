@@ -1,0 +1,521 @@
+header,
+footer,
+.footer-nav,
+.header-nav,
+.header-sign {
+  display: flex;
+}
+header {
+  min-height: 200px;
+}
+.burgerHeader {
+  display: none;
+}
+nav a {
+  font-size: 25px;
+  font-weight: 500;
+}
+.up-nav {
+  width: 71%;
+}
+.header-nav {
+  margin-left: 288px;
+}
+.header-nav li {
+  margin-left: 30px;
+  margin-top: 65px;
+  margin-right: 100px;
+}
+.header-nav li a {
+  width: ;
+}
+.logo {
+  width: 14%;
+}
+.logo-header {
+  margin-top: 22px;
+}
+.header-sign {
+  width: 15%;
+  justify-content: flex-end;
+  margin-right: 0;
+  padding-right: 0;
+}
+.header-sign-img {
+  margin-left: 53px;
+  margin-top: 60px;
+}
+/* .header-sign img {
+  margin-top: 60px;
+} */
+.footer-nav {
+  display: flex;
+  /* align-items: center; */
+}
+.down-nav {
+  width: 86%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer-nav li:first-child,
+.footer-nav li:nth-child(2) {
+  margin-right: 100px;
+}
+footer {
+  padding-bottom: 100px;
+}
+.linkScroll {
+  cursor: pointer;
+}
+
+/* search */
+.autocompliteInHeader {
+  padding-top: 60px;
+}
+.search,
+.searchGroup {
+  display: flex;
+  align-items: center;
+}
+.searchGroup {
+  margin-top: -5px;
+  margin-right: 30px;
+  position: relative;
+}
+.searchImage,
+.searchCloseImg {
+  cursor: pointer;
+}
+.searchCloseImg {
+  width: 42px;
+  margin: -5px -5px 0 0;
+}
+.searchInput {
+  width: 50vw;
+  padding: 15px;
+  border: none;
+  box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.21);
+  border-radius: 5px;
+  margin-right: 20px;
+  position: relative;
+  border: 1px solid lightgray;
+  /* margin-top: -5px;
+  margin-right: 30px; */
+}
+.forSearchPageImg {
+  width: 30px;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  right: 6%;
+  color: gray;
+}
+.autocompleteList {
+  z-index: 5;
+  background-color: #fff;
+  position: absolute;
+  padding: 20px;
+  left: 410px;
+  top: 105px;
+  border: 1px solid lightgray;
+}
+.autocompleteList .autocompliteImg {
+  margin-top: 0;
+}
+.autocompleteList li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.searchList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+@media (max-width: 1720px) {
+  .header-nav {
+    margin-left: 150px;
+  }
+  .searchGroup {
+    margin-right: 40px;
+  }
+  .searchInput {
+    width: 45vw;
+  }
+  .close {
+    right: 8%;
+  }
+  .autocompleteList {
+    left: 489px;
+    top: 104px;
+  }
+}
+
+@media (max-width: 1530px) {
+  .autocompleteList {
+    left: 459px;
+    top: 173px;
+  }
+  header {
+    min-height: 200px;
+  }
+  .header-nav {
+    margin-left: 150px;
+  }
+  .header-nav li:first-child {
+    margin-left: 0;
+  }
+  .searchGroup {
+    margin-top: 4rem;
+    margin-right: -35px;
+  }
+  .searchCloseImg {
+    margin-top: -5rem;
+  }
+  .close {
+    right: 9%;
+  }
+}
+
+@media (max-width: 1471px) {
+  .autocompleteList {
+    left: 427px;
+    top: 173px;
+  }
+  .header-nav {
+    margin-left: 170px;
+  }
+  .header-nav li {
+    margin-left: 20px;
+    margin-right: 80px;
+  }
+  nav a {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1330px) {
+  .autocompleteList {
+    left: 408px;
+    top: 173px;
+  }
+  .header-nav li {
+    margin-left: 10px;
+    margin-right: 60px;
+  }
+  .logoImage {
+    width: 250px;
+  }
+  .smallHeaderImg {
+    width: 35px;
+  }
+  .smallHeaderImgMan {
+    width: 31px;
+  }
+  .header-sign-img {
+    margin-left: 40px;
+  }
+  .close {
+    right: 9%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .autocompleteList {
+    left: 351px;
+    top: 173px;
+  }
+  header {
+    min-height: 190px;
+  }
+  .logoImage {
+    width: 200px;
+  }
+  .logo-header {
+    margin-top: 30px;
+  }
+  .smallHeaderImg {
+    width: 30px;
+  }
+  .smallHeaderImgMan {
+    width: 27px;
+  }
+  .header-sign-img {
+    margin-left: 40px;
+  }
+  nav a {
+    font-size: 18px;
+  }
+  .header-nav li:last-child {
+    width: 33%;
+  }
+  .header-nav li:first-child {
+    width: 35%;
+  }
+  .header-nav {
+    margin-left: 130px;
+  }
+  .close {
+    right: 11%;
+  }
+}
+
+@media (max-width: 1120px) {
+  .autocompleteList {
+    left: 310px;
+    top: 147px;
+  }
+  header {
+    min-height: 165px;
+  }
+  .searchGroup {
+    margin-top: 3rem;
+    margin-right: -50px;
+  }
+  .searchCloseImg {
+    margin-top: -3.5rem;
+  }
+  .searchInput {
+    width: 47vw;
+    padding: 10px;
+  }
+  .header-nav li {
+    margin-right: 30px;
+  }
+  .footer-nav li:first-child,
+  .footer-nav li:nth-child(2) {
+    margin-right: 80px;
+  }
+}
+@media (max-width: 1024px) {
+  .autocompleteList {
+    left: 259px;
+    top: 147px;
+  }
+}
+
+@media (max-width: 991px) {
+  .autocompleteList {
+    left: 284px;
+    top: 153px;
+  }
+  header {
+    min-height: 165px;
+  }
+  .header-nav li:first-child {
+    width: 33%;
+  }
+  .logoImage {
+    width: 170px;
+  }
+  .smallHeaderImg {
+    width: 22px;
+  }
+  .smallHeaderImgMan {
+    width: 20px;
+  }
+  .header-sign-img {
+    margin-left: 30px;
+  }
+  .header-nav {
+    margin-left: 100px;
+    justify-content: space-between;
+  }
+  .header-nav li {
+    margin-top: 60px;
+  }
+  .searchGroup {
+    margin-top: 3rem;
+    margin-right: -20px;
+  }
+  .searchCloseImg {
+    margin-top: -4.5rem;
+  }
+  .close {
+    right: 11%;
+  }
+  .searchInput {
+    width: 47vw;
+    padding: 13px;
+  }
+  .forSearchPageImg {
+    width: 25px;
+  }
+  .footer-nav li:first-child,
+  .footer-nav li:nth-child(2) {
+    margin-right: 70px;
+  }
+}
+@media (max-width: 892px) {
+  .autocompleteList {
+    left: 270px;
+    top: 153px;
+  }
+  nav a {
+    font-size: 16px;
+  }
+  .header-nav {
+    margin-left: 80px;
+  }
+  .header-nav li {
+    margin-top: 63px;
+    margin-right: 0;
+  }
+  .logo-header {
+    margin-top: 33px;
+  }
+  .logoImage {
+    width: 150px;
+  }
+  .smallHeaderImg {
+    width: 18px;
+  }
+  .smallHeaderImgMan {
+    width: 16px;
+  }
+  .header-sign-img {
+    margin-left: 20px;
+  }
+  .forSearchPageImg {
+    width: 19px;
+  }
+  .footer-nav li:first-child,
+  .footer-nav li:nth-child(2) {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 795px) {
+  .autocompleteList {
+    left: 222px;
+    top: 149px;
+  }
+  .header-nav li:first-child {
+    width: 36%;
+  }
+  .header-nav {
+    margin-left: 90px;
+  }
+  .searchInput {
+    padding: 11px;
+  }
+  footer {
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .autocompleteList {
+    left: 145px;
+    top: 147px;
+    padding: 28px;
+  }
+  header {
+    min-height: 150px;
+  }
+  header {
+    justify-content: space-between;
+  }
+  .footer-nav li:first-child,
+  .footer-nav li:nth-child(2) {
+    margin-right: 30px;
+  }
+  .up-nav {
+    display: none;
+  }
+  .burgerHeader {
+    display: block;
+    margin-top: 55px;
+    margin-left: 30px;
+  }
+  .searchCloseImg {
+    margin: 0;
+  }
+  .close {
+    right: 3rem;
+  }
+  .searchInput {
+    width: 60vw;
+    padding: 12px;
+  }
+  .searchGroup {
+    position: absolute;
+    left: 9rem;
+    top: 3.5rem;
+  }
+  .footer-nav a {
+    font-size: 15px;
+  }
+}
+@media (max-width: 660px) {
+  .autocompleteList {
+    left: 113px;
+    top: 147px;
+    padding: 28px;
+  }
+  .searchGroup {
+    left: 7rem;
+  }
+  footer {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .autocompleteList {
+    left: 97px;
+    top: 131px;
+    padding: 28px;
+  }
+  header {
+    min-height: 140px;
+  }
+  .logoImage {
+    width: 120px;
+  }
+  .logo-header {
+    margin-top: 35px;
+  }
+  .searchGroup {
+    left: 6rem;
+    top: 2.5rem;
+  }
+  footer {
+    padding-bottom: 50px;
+  }
+  .footer-nav a {
+    font-size: 12px;
+  }
+  .footer-nav li:first-child,
+  .footer-nav li:nth-child(2) {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .autocompleteList {
+    left: 65px;
+    top: 123px;
+    padding: 22px;
+  }
+  header {
+    min-height: 140px;
+  }
+  .logo-header {
+    margin-top: 36px;
+  }
+  .searchGroup {
+    left: 4rem;
+    top: 2.3rem;
+  }
+  .footer-nav a {
+    font-size: 12px;
+  }
+  .footer-nav li:first-child,
+  .footer-nav li:nth-child(2) {
+    margin-right: 22px;
+  }
+  .searchInput {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,38 @@
+.burgerOpenList {
+  background-color: #f9b300;
+  height: 50vh;
+  position: absolute;
+  z-index: 9;
+  width: 30%;
+  top: 53px;
+  right: 49px;
+  text-align: right;
+  padding-right: 30px;
+  font-size: 18px;
+}
+.burgerOpenList li:first-child {
+  margin-top: 80px;
+}
+.burgerOpenList li {
+  margin-bottom: 20px;
+}
+.burger-toggle {
+  position: relative;
+  border: none;
+  background-color: #f9b300;
+  padding: 5px 7px;
+  border-radius: 5px;
+  z-index: 15;
+}
+
+@media (max-width: 575px) {
+  .burgerOpenList {
+    right: 29px;
+    font-size: 16px;
+    padding-right: 20px;
+    width: 40%;
+  }
+  .burgerOpenList li:first-child {
+    margin-top: 60px;
+  }
+}

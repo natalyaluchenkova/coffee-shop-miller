@@ -1,0 +1,196 @@
+.telegramBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  align-items: center;
+}
+.telegramBlock input,
+.telegramBlock textarea,
+.mailInput {
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #f3f3f3;
+  box-shadow: 0px 0px 6px 3px rgba(34, 60, 80, 0.21);
+}
+.telegramImg {
+  width: 80%;
+}
+.telegramBody h4,
+.mailBlock h4 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 62px;
+  margin-bottom: 20px;
+}
+::placeholder {
+  font-size: 15px;
+}
+.formTelegramText::placeholder {
+  font-size: 17px;
+}
+.mailBlock {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  background-color: #fff;
+  padding: 30px;
+  /* width: 50%; */
+  border-radius: 20px;
+}
+.mailBlock p {
+  font-size: 25px;
+  line-height: 130%;
+  margin-bottom: 60px;
+}
+
+.mailInput {
+  width: 800px;
+  padding: 15px;
+}
+.btnMail {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  background: #f9b300;
+  border-radius: 5px;
+  padding: 13px 46px;
+  border: none;
+}
+
+@media (max-width: 1199px) {
+  .telegramBody h4,
+  .mailBlock h4 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .mailBlock p {
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 40px;
+  }
+  .mailBlock {
+    margin-top: 60px;
+    margin-bottom: 70px;
+    padding: 30px;
+    /* width: 65%; */
+  }
+  .telegramBody {
+    width: 70%;
+  }
+  .mailInput {
+    width: 600px;
+  }
+}
+
+@media (max-width: 991px) {
+  .telegramBody h4,
+  .mailBlock h4 {
+    font-size: 35px;
+  }
+  .btnMail {
+    font-size: 15px;
+    padding: 10px 35px;
+  }
+  .mailBlock p {
+    font-size: 18px;
+    line-height: 120%;
+  }
+}
+@media (max-width: 882px) {
+  .mailInput {
+    width: 500px;
+    padding: 10px;
+  }
+  ::placeholder {
+    font-size: 12px;
+  }
+  .formTelegramText::placeholder {
+    font-size: 14px;
+  }
+  .telegramImg {
+    display: none;
+  }
+  .telegramBody {
+    width: 100%;
+  }
+  .mailBlock {
+    padding: 0;
+  }
+}
+@media (max-width: 882px) {
+  .telegramBody h4,
+  .mailBlock h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .mailBlock p {
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .mailInput {
+    width: 400px;
+  }
+}
+@media (max-width: 670px) {
+  .telegramBody h4,
+  .mailBlock h4 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 575px) {
+  .telegramBody h4,
+  .mailBlock h4 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .mailBlock h4 {
+    margin-bottom: 20px;
+  }
+  .btnMail {
+    font-size: 14px;
+    padding: 8px 35px;
+  }
+  .mailBlock p {
+    font-size: 13px;
+  }
+  .mailInput {
+    width: 350px;
+  }
+  .telegramBlock input,
+  .telegramBlock textarea,
+  .mailInput {
+    width: 350px;
+  }
+  .mailBlock {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  .telegramBody h4,
+  .mailBlock h4 {
+    font-size: 20px;
+  }
+  .mailBlock p {
+    font-size: 11px;
+  }
+  .btnMail {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+  .telegramBlock input,
+  .telegramBlock textarea,
+  .mailInput {
+    width: 330px;
+  }
+  .mailBlock {
+    margin-bottom: 30px;
+  }
+}

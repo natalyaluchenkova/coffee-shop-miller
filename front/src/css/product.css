@@ -1,0 +1,464 @@
+.productHeader {
+  background-color: #fff;
+  box-shadow: 0px 0px 50px 0px #a3a3a340;
+  border-radius: 20px;
+  /* margin-top: 100px; */
+  padding: 73px 132px;
+  display: flex;
+}
+.productItemImg {
+  margin-right: 130px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.productItemDescr {
+  width: 70%;
+}
+
+.productItemImg img {
+  width: 300px;
+}
+.productItemDescr h2 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+}
+.productItemDescr h5 {
+  font-size: 20px;
+  line-height: 40px;
+}
+.reviews img {
+  margin-right: 20px;
+}
+.shortDescription {
+  font-size: 20px;
+  line-height: 130%;
+  width: 80%;
+  margin-top: 34px;
+}
+.productItemDescr h4 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 130%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.productCharacteristics {
+  width: 80%;
+}
+.productCharacteristics hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid lightgray;
+  margin: 1em 0;
+  padding: 0;
+}
+.characteristItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.priceBlock {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.btnBuy {
+  background-color: #f9b300;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 110px;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.itemPrice {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  margin-right: 150px;
+}
+.fullDescription {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 50px 0px #a3a3a340;
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 150%;
+  padding: 30px;
+}
+.additionalInfo {
+  background-color: #fff;
+  box-shadow: 0px 0px 50px 0px #a3a3a340;
+  border-radius: 20px;
+  padding: 30px;
+}
+/* .full_descr_text {
+  width: 70%;
+} */
+.fullDescription img {
+  width: 250px;
+  margin-left: 10px;
+  float: right;
+}
+.additionalInfo h5 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 60px;
+}
+.additionalInfo p {
+  font-size: 20px;
+  line-height: 150%;
+  width: 80%;
+}
+.additionalInfo img {
+  margin: 50px 0;
+  width: 100%;
+}
+.itemPrice del {
+  color: #c6c6c6;
+  font-size: 25px;
+}
+
+@media (max-width: 1510px) {
+  .productItemImg {
+    margin-right: 110px;
+  }
+  .productHeader {
+    padding: 73px 100px;
+  }
+}
+@media (max-width: 1350px) {
+  .productHeader {
+    padding: 73px 80px;
+  }
+  .btnBuy {
+    padding: 15px 80px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 1199px) {
+  .productHeader {
+    /* margin-top: 60px; */
+    padding: 50px;
+  }
+  .reviews img {
+    width: 100px;
+  }
+  .shortDescription {
+    font-size: 18px;
+    line-height: 28px;
+    width: 80%;
+    margin-top: 34px;
+  }
+  .productItemDescr h4 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .productCharacteristics hr {
+    margin: 0.7em 0;
+  }
+  .characteristItem {
+    font-size: 16px;
+  }
+  .priceBlock {
+    margin-top: 20px;
+  }
+  .btnBuy {
+    padding: 15px 60px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .priceBlock .itemPrice {
+    font-size: 28px;
+    line-height: 35px;
+    margin-right: 140px;
+  }
+  .fullDescription,
+  .additionalInfo p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .additionalInfo p {
+    width: 100%;
+  }
+  .additionalInfo h5 {
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  .shortDescription {
+    width: 100%;
+  }
+  .productCharacteristics {
+    width: 90%;
+  }
+}
+@media (max-width: 1090px) {
+  .productItemImg img {
+    width: 250px;
+  }
+  .productHeader {
+    padding: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .productItemImg img {
+    width: 200px;
+  }
+  .productItemDescr h2,
+  .additionalInfo h5 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .productItemDescr h5 {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .reviews img {
+    width: 80px;
+  }
+  .reviews a {
+    font-size: 14px;
+  }
+  .reviews a span {
+    font-size: 16px;
+  }
+  .shortDescription {
+    margin-top: 20px;
+  }
+  .shortDescription,
+  .fullDescription,
+  .additionalInfo p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .productItemDescr h4 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .characteristItem {
+    font-size: 14px;
+  }
+  .productCharacteristics hr {
+    margin: 0.5em 0;
+  }
+  .priceBlock {
+    margin-top: 10px;
+  }
+  .btnBuy {
+    padding: 15px 50px;
+    font-size: 18px;
+    line-height: 16px;
+  }
+  .priceBlock .itemPrice {
+    font-size: 25px;
+    line-height: 30px;
+    margin-right: 120px;
+  }
+  .priceBlock .itemPrice del {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .fullDescription {
+    margin-top: 50px;
+  }
+  .additionalInfo h5 {
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
+  .additionalInfo img {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 850px) {
+  .productItemImg {
+    width: 20%;
+    margin-right: 90px;
+  }
+  .productItemImg img {
+    width: 180px;
+  }
+  .productItemDescr {
+    width: 80%;
+  }
+  .priceBlock .itemPrice {
+    margin-right: 90px;
+  }
+}
+@media (max-width: 767px) {
+  .productItemImg img {
+    width: 160px;
+  }
+  .productItemDescr h2,
+  .additionalInfo h5 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .productItemDescr h5 {
+    font-size: 15px;
+  }
+  .reviews a {
+    font-size: 12px;
+  }
+  .reviews a span {
+    font-size: 14px;
+  }
+  .shortDescription {
+    margin-top: 10px;
+  }
+  .shortDescription,
+  .fullDescription,
+  .additionalInfo p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .productItemDescr h4 {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .characteristItem {
+    font-size: 13px;
+  }
+  .productCharacteristics hr {
+    margin: 0.4em 0;
+  }
+  .btnBuy {
+    padding: 12px 45px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .priceBlock .itemPrice {
+    font-size: 22px;
+    line-height: 20px;
+    margin-right: 90px;
+  }
+
+  .priceBlock .itemPrice del {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .fullDescription img {
+    width: 150px;
+  }
+  .fullDescription,
+  .additionalInfo {
+    padding: 10px;
+  }
+  .additionalInfo h5 {
+    margin-bottom: 30px;
+  }
+  .additionalInfo img {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 675px) {
+  .priceBlock .itemPrice {
+    margin-right: 50px;
+  }
+  .btnBuy {
+    padding: 10px 35px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .priceBlock .itemPrice {
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 50px;
+  }
+
+  .priceBlock .itemPrice del {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 575px) {
+  .productHeader {
+    display: block;
+    /* margin-top: 50px; */
+    padding: 20px;
+  }
+  .productItemDescr {
+    width: 100%;
+  }
+  .productItemImg {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .productCharacteristics {
+    width: 100%;
+  }
+  .reviews {
+    text-align: right;
+  }
+  .priceBlock {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 420px) {
+  .productItemImg img {
+    width: 140px;
+  }
+  .productItemDescr h2,
+  .additionalInfo h5 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .productItemDescr h5 {
+    font-size: 13px;
+  }
+  .reviews a {
+    font-size: 11px;
+  }
+  .reviews a span {
+    font-size: 12px;
+  }
+  .additionalInfo h5 {
+    margin-bottom: 20px;
+  }
+  .fullDescription {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .productItemImg img {
+    width: 140px;
+  }
+  .productItemDescr h2,
+  .additionalInfo h5 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .productItemDescr h5 {
+    font-size: 13px;
+  }
+  .reviews a {
+    font-size: 11px;
+  }
+  .reviews a span {
+    font-size: 12px;
+  }
+  .additionalInfo h5 {
+    margin-bottom: 20px;
+  }
+  .fullDescription {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}

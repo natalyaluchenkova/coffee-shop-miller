@@ -1,0 +1,214 @@
+.smallSliderSale {
+  width: 85%;
+  margin-left: 10%;
+}
+.smallSliderSale .slick-track {
+  padding-top: 30px;
+}
+.smallSliderSale .slick-prev::before {
+  content: url("../components/img/arrow_prew.png");
+  margin-left: -50px;
+}
+.smallSliderSale .slick-next::before {
+  content: url("../components/img/arrow_next.png");
+}
+.cardSale .productImg {
+  width: 160px;
+}
+.cardSale {
+  padding: 20px;
+  /* width: 19.5%; */
+  border-radius: 20px;
+  margin: 0 10px 20px 10px;
+  box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
+  position: relative;
+  background-color: #fff;
+  position: relative;
+}
+.cardSale .saleProductImg {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.cardSale .percentImg {
+  position: absolute;
+  top: -2%;
+  right: 2%;
+}
+.cardSale h5 {
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 31px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.cardSale .rate {
+  color: #222222;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 7px;
+}
+.cardSale .rateStars {
+  width: 100px;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+.cardSale .toBasket {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  background: #f9b300;
+  border-radius: 5px;
+  padding: 13px 40px;
+  border: none;
+}
+.cardSale .toBasket:hover {
+  text-decoration: none;
+  background-color: #e2a300;
+}
+
+.cardSale .productPrice li:first-child {
+  font-weight: 900;
+  font-size: 30px;
+}
+.cardSale .productPrice li:first-child del {
+  font-weight: 500;
+  font-size: 24px;
+  color: #c6c6c6;
+}
+.cardSale .productPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10%;
+}
+.cardSale .descriptionProduct {
+  margin-bottom: 25px;
+  line-height: 21px;
+  font-size: 17px;
+}
+
+@media (max-width: 1600px) {
+  .smallSliderSale {
+    margin-left: 11%;
+  }
+  .smallSliderSale .slick-prev::before {
+    content: url("../components/img/arrow_prew_1.png");
+    margin-left: -25px;
+  }
+  .smallSliderSale .slick-next::before {
+    content: url("../components/img/arrow_next_1.png");
+  }
+}
+@media (max-width: 1400px) {
+  .smallSliderSale {
+    width: 75%;
+    margin-left: 20%;
+  }
+}
+@media (max-width: 1199px) {
+  .cardSale {
+    margin: 0 5px 20px 5px;
+  }
+  .smallSliderSale {
+    width: 100%;
+    margin-left: 0;
+  }
+  .cardSale .productImg {
+    width: 100px;
+  }
+  .cardSale .percentImg {
+    width: 50px;
+    top: 5%;
+    right: 7%;
+  }
+  .smallSliderSale .slick-prev::before {
+    content: url("../components/img/inverse_arrow.png");
+  }
+  .cardSale h5 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+  }
+  .cardSale .descriptionProduct {
+    margin-bottom: 15px;
+    line-height: 18px;
+    font-size: 15px;
+  }
+  .cardSale .productPrice li:first-child {
+    font-size: 22px;
+  }
+  .cardSale .productPrice li:first-child del {
+    font-size: 20px;
+  }
+  .cardSale .toBasket {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 11px 35px;
+  }
+  .cardSale .rate {
+    font-size: 17px;
+    line-height: 18px;
+  }
+  .cardSale .rateNumber {
+    font-size: 15px;
+  }
+  .cardSale .rateStars {
+    width: 90px;
+    margin-bottom: 7px;
+  }
+}
+@media (max-width: 1024px) {
+  .cardSale .descriptionProduct {
+    margin-bottom: 10px;
+    line-height: 15px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 960px) {
+  .smallSliderSale .slick-prev::before {
+    content: url("../components/img/arrow_prew_2.png");
+    margin-left: -10px;
+  }
+  .smallSliderSale .slick-next::before {
+    content: url("../components/img/arrow_next_2.png");
+  }
+  .cardSale .toBasket {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 11px 25px;
+  }
+  .cardSale .productPrice li:first-child {
+    font-size: 20px;
+  }
+  .cardSale .productPrice li:first-child del {
+    font-size: 18px;
+  }
+  .cardSale .saleProductImg {
+    margin-top: 10px;
+  }
+  .cardSale h5 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+  .cardSale .rate {
+    font-size: 15px;
+    line-height: 10px;
+  }
+  .cardSale .rateNumber {
+    font-size: 13px;
+  }
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 575px) {
+  .smallSliderSale {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+@media (max-width: 420px) {
+}
